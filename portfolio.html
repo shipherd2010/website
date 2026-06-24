@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Lun (羊人) | 作品集</title>
+    <meta name="description" content="瀏覽插畫家 Lun (羊人) 的作品集，包含原創概念插畫、商業包裝設定及手繪草稿。提供作品的設計理念、媒材與細節展示。">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- --- Header --- -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo-wrapper">
+                <span class="logo-brand">LUN 羊人</span>
+                <span class="logo-location">Taichung, Taiwan</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home 首頁</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio 作品集</a></li>
+                    <li><a href="shop.html">Shop 商店</a></li>
+                    <li><a href="about.html">About 關於我</a></li>
+                    <li><a href="#" id="contact-trigger">Contact 聯絡</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-right">
+                <div class="social-icons-nav">
+                    <a href="https://instagram.com" target="_blank">ig</a>
+                    <a href="https://x.com" target="_blank">x</a>
+                    <a href="https://plurk.com" target="_blank">plurk</a>
+                </div>
+                <div class="cart-icon-btn" id="cart-toggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <span>Cart</span>
+                    <span class="cart-count" id="cart-count">0</span>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- --- Portfolio Section --- -->
+    <section class="container section-padding" style="margin-top: 80px;">
+        <div class="section-header">
+            <h2>Portfolio <em>作品集</em></h2>
+            <p>探索手繪草稿、商業插畫與奇幻概念設計的視覺軌跡。</p>
+        </div>
+        
+        <!-- Filter Controls -->
+        <ul class="portfolio-filters">
+            <li><button class="filter-btn active" data-filter="all">All 探索全部</button></li>
+            <li><button class="filter-btn" data-filter="illustration">Illustrations 插畫</button></li>
+            <li><button class="filter-btn" data-filter="concept-art">Concept Art 設定集</button></li>
+            <li><button class="filter-btn" data-filter="sketches">Sketches 草稿</button></li>
+        </ul>
+        
+        <!-- Masonry Grid -->
+        <div class="masonry-grid">
+            
+            <!-- Item 1 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="幸福漸進曲" 
+                 data-year="2013" 
+                 data-medium="Digital Illustration" 
+                 data-size="3000 x 4000 px"
+                 data-desc="全職高手二創小說《幸福漸進曲》封面設計">
+                <img src="assets/1.jpg" alt="Progressive March to Happiness">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Progressive March to Happiness</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="Blue Monarch 藍色君主" 
+                 data-year="2025" 
+                 data-medium="Digital Painting" 
+                 data-size="2400 x 3200 px"
+                 data-desc="描繪一隻長有雄偉羊角與蝴蝶羽翼的奇幻神獸，象徵著自然界權威與轉變的二元性。">
+                <img src="assets/2.png" alt="Blue Monarch">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Blue Monarch</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="Echoes of Satyr 半羊人之聲" 
+                 data-year="2026" 
+                 data-medium="Digital Painting" 
+                 data-size="2000 x 2800 px"
+                 data-desc="荒野中吹奏長笛的半羊人，樂聲化作發光的螢光線條迴盪在夜空。">
+                <img src="assets/3.png" alt="Echoes of Satyr">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Echoes of Satyr</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="Lunar Garden 月光溫室" 
+                 data-year="2026" 
+                 data-medium="Digital Illustration" 
+                 data-size="3200 x 4000 px"
+                 data-desc="在溫室玻璃罩內，吸取月華而盛開的發光透明蘭花。">
+                <img src="assets/4.png" alt="Lunar Garden">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Lunar Garden</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="Celestial Wanderer 星際漂泊者" 
+                 data-year="2025" 
+                 data-medium="Digital Painting" 
+                 data-size="2400 x 3000 px"
+                 data-desc="穿梭在星雲碎片與宇宙微塵間的羊角太空人。">
+                <img src="assets/5.png" alt="Celestial Wanderer">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Celestial Wanderer</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="The Silent Watcher 靜默守護者" 
+                 data-year="2026" 
+                 data-medium="Digital Painting" 
+                 data-size="2800 x 3600 px"
+                 data-desc="矗立於懸崖邊的古老羊頭石雕，雙眼發出指引迷途者的微弱金光。">
+                <img src="assets/6.png" alt="The Silent Watcher">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">The Silent Watcher</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="Ancient Ruins 遺落神殿" 
+                 data-year="2024" 
+                 data-medium="Digital Illustration" 
+                 data-size="3600 x 4800 px"
+                 data-desc="荒蕪沙漠中半埋的巨型遺蹟，石壁上刻滿神祕符號與野獸壁畫。">
+                <img src="assets/7.png" alt="Ancient Ruins">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Ancient Ruins</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="Neon Ritual 霓虹祭典" 
+                 data-year="2025" 
+                 data-medium="Digital Painting" 
+                 data-size="2400 x 3200 px"
+                 data-desc="傳統宗教儀式與賽博朋克霓虹光束的超現實融合，展現光影與信仰的交錯。">
+                <img src="assets/8.png" alt="Neon Ritual">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Neon Ritual</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 9 -->
+            <div class="masonry-item" data-category="illustration" 
+                 data-title="Lost in Transition 邊界迷失" 
+                 data-year="2026" 
+                 data-medium="Digital Painting" 
+                 data-size="3000 x 3000 px"
+                 data-desc="人物面部在風化碎裂中轉化為流沙與花瓣，隱喻靈魂的蛻變與異化。">
+                <img src="assets/9.png" alt="Lost in Transition">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Lost in Transition</h3>
+                    <span class="masonry-item-tag">Illustration</span>
+                </div>
+            </div>
+
+            <!-- Item 10 -->
+            <div class="masonry-item" data-category="concept-art" 
+                 data-title="Horned Guard concept 羊角守衛概念" 
+                 data-year="2025" 
+                 data-medium="Character Sheet" 
+                 data-size="2000 x 2800 px"
+                 data-desc="原創世界觀中的邊境守護者造型設定。配有重型角飾頭盔與皮革編織護甲。">
+                <img src="assets/10.png" alt="Horned Guard concept">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Horned Guard</h3>
+                    <span class="masonry-item-tag">Concept Art</span>
+                </div>
+            </div>
+
+            <!-- Item 11 -->
+            <div class="masonry-item" data-category="concept-art" 
+                 data-title="Mechanical Heart Core v2 齒輪心臟核心" 
+                 data-year="2025" 
+                 data-medium="Prop Design Sheet" 
+                 data-size="1800 x 2400 px"
+                 data-desc="為絲網海報《Frankenstein》繪製的心臟機械結構內部剖析圖與零件拆解圖。">
+                <img src="assets/11.png" alt="Mechanical Heart Core v2">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Mechanical Heart Core</h3>
+                    <span class="masonry-item-tag">Concept Art</span>
+                </div>
+            </div>
+
+            <!-- Item 12 -->
+            <div class="masonry-item" data-category="concept-art" 
+                 data-title="Sanctuary Archway Layout 庇護所拱門設計" 
+                 data-year="2026" 
+                 data-medium="Environment Concept" 
+                 data-size="2200 x 3000 px"
+                 data-desc="《半羊人之夢》展覽的主題拱門結構透視圖與細部裝飾設定稿。">
+                <img src="assets/12.png" alt="Sanctuary Archway Layout">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Sanctuary Archway</h3>
+                    <span class="masonry-item-tag">Concept Art</span>
+                </div>
+            </div>
+
+            <!-- Item 13 -->
+            <div class="masonry-item" data-category="concept-art" 
+                 data-title="Fungal Spore Flora Design 菌絲植物設定" 
+                 data-year="2026" 
+                 data-medium="Flora Specimen Sheet" 
+                 data-size="1600 x 2200 px"
+                 data-desc="發光植物群的生態與演化原案，著重於發光孢子在夜晚的擴散路徑與色彩明度。">
+                <img src="assets/13.png" alt="Fungal Spore Flora Design">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Fungal Spore Flora</h3>
+                    <span class="masonry-item-tag">Concept Art</span>
+                </div>
+            </div>
+
+            <!-- Item 14 -->
+            <div class="masonry-item" data-category="concept-art" 
+                 data-title="Cybernetic Overlord Sketch 機械義體設定" 
+                 data-year="2025" 
+                 data-medium="Character Draft" 
+                 data-size="2000 x 2600 px"
+                 data-desc="融合生物線條與機械結構的半機械角狀生命體面部細節與電路排線設定。">
+                <img src="assets/14.png" alt="Cybernetic Overlord Sketch">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Cybernetic Overlord</h3>
+                    <span class="masonry-item-tag">Concept Art</span>
+                </div>
+            </div>
+
+            <!-- Item 15 -->
+            <div class="masonry-item" data-category="concept-art" 
+                 data-title="Ancient Relics Prop Design 遺物道具設定" 
+                 data-year="2024" 
+                 data-medium="Prop Design Sheet" 
+                 data-size="1800 x 2400 px"
+                 data-desc="沙漠神殿中出土的神祕黃銅羅盤與長角石質容器設定線稿與材質渲染。">
+                <img src="assets/15.png" alt="Ancient Relics Prop Design">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Ancient Relics Prop</h3>
+                    <span class="masonry-item-tag">Concept Art</span>
+                </div>
+            </div>
+
+            <!-- Item 16 -->
+            <div class="masonry-item" data-category="concept-art" 
+                 data-title="Landscape Mood Board 場景氣氛圖" 
+                 data-year="2026" 
+                 data-medium="Color Keys & Lighting Board" 
+                 data-size="3000 x 1800 px"
+                 data-desc="個人個展場景的光影演變圖，研究天體折射在不同濕度環境下的色彩光感。">
+                <img src="assets/16.png" alt="Landscape Mood Board">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Landscape Mood Board</h3>
+                    <span class="masonry-item-tag">Concept Art</span>
+                </div>
+            </div>
+
+            <!-- Item 17 -->
+            <div class="masonry-item" data-category="concept-art" 
+                 data-title="Ritual Dagger Details 儀式短匕設定" 
+                 data-year="2025" 
+                 data-medium="Weapon Prop Design" 
+                 data-size="1500 x 2000 px"
+                 data-desc="羊角刀柄短匕首的三視圖與鍍金刀身符文刻痕細節設定。">
+                <img src="assets/17.png" alt="Ritual Dagger Details">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Ritual Dagger Details</h3>
+                    <span class="masonry-item-tag">Concept Art</span>
+                </div>
+            </div>
+
+            <!-- Item 18 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Ink Studies: Wildlife 生物速寫" 
+                 data-year="2025" 
+                 data-medium="Ink on Textured Paper" 
+                 data-size="2000 x 2000 px"
+                 data-desc="對羊類生物奔跑姿態與骨骼肌肉拉伸進行的手繪鋼筆速寫練習。">
+                <img src="assets/18.png" alt="Ink Studies: Wildlife">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Wildlife Ink Studies</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+
+            <!-- Item 19 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Antlered Self Sketch 鹿角自畫像草稿" 
+                 data-year="2026" 
+                 data-medium="Pencil & Charcoal Draft" 
+                 data-size="1600 x 2200 px"
+                 data-desc="運用炭筆快速鋪設陰影，勾勒出頭戴鹿角裝飾的自畫像素描。">
+                <img src="assets/19.jpg" alt="Antlered Self Sketch">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Antlered Self Sketch</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+
+            <!-- Item 20 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Teacup Creature Studies 茶杯生物原案" 
+                 data-year="2025" 
+                 data-medium="Pencil & Color Pencil Sketch" 
+                 data-size="1500 x 1500 px"
+                 data-desc="《SOUR》杯中小羊系列貼紙的最初色鉛筆發想草稿，包含多個姿態變體。">
+                <img src="assets/20.jpg" alt="Teacup Creature Studies">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Teacup Creature Studies</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+
+            <!-- Item 21 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Quick Gesture Drawing 快速動態速寫" 
+                 data-year="2026" 
+                 data-medium="Conte & Charcoal on Craft Paper" 
+                 data-size="1800 x 2400 px"
+                 data-desc="使用粉彩筆在牛皮紙上進行的 3 分鐘雙人重疊動態速寫。">
+                <img src="assets/21.png" alt="Quick Gesture Drawing">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Quick Gesture Drawing</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+
+            <!-- Item 22 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Sleeping Sheep Draft 眠羊草圖" 
+                 data-year="2025" 
+                 data-medium="Mechanical Pencil on Notebook" 
+                 data-size="1200 x 1200 px"
+                 data-desc="隨手記錄於筆記本頁角的蜷縮眠羊草圖，筆觸鬆散隨性。">
+                <img src="assets/22.png" alt="Sleeping Sheep Draft">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Sleeping Sheep Draft</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+
+            <!-- Item 23 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Mechanical Arm Draft 機械臂結構草圖" 
+                 data-year="2025" 
+                 data-medium="Ink & Fineliner Sketch" 
+                 data-size="1600 x 2000 px"
+                 data-desc="為設定集繪製的仿生機械關節活動範圍與油壓管線手動走線草圖。">
+                <img src="assets/23.png" alt="Mechanical Arm Draft">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Mechanical Arm Draft</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+
+            <!-- Item 24 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Facial Expression Board 表情九宮格草圖" 
+                 data-year="2026" 
+                 data-medium="Ballpoint Pen Draft" 
+                 data-size="2000 x 2000 px"
+                 data-desc="主角人物在喜怒哀樂與發呆狀態下的面部特寫草稿，展現神經細節。">
+                <img src="assets/24.png" alt="Facial Expression Board">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Facial Expression Board</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+
+            <!-- Item 25 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Anatomical Wing Studies 羽翼解剖草稿" 
+                 data-year="2025" 
+                 data-medium="Pencil Study" 
+                 data-size="1800 x 2400 px"
+                 data-desc="對鳥類翅膀骨架與羽毛層疊方式的解剖學摹寫練習。">
+                <img src="assets/25.png" alt="Anatomical Wing Studies">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Anatomical Wing Studies</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+
+            <!-- Item 26 -->
+            <div class="masonry-item" data-category="sketches" 
+                 data-title="Foliage Pattern Studies 植物花紋練習" 
+                 data-year="2026" 
+                 data-medium="Black Ink on Drawing Block" 
+                 data-size="2000 x 2800 px"
+                 data-desc="繪製細密植物藤蔓與裝飾性葉片的連續排列練習，用於版畫底紋。">
+                <img src="assets/26.jpg" alt="Foliage Pattern Studies">
+                <div class="masonry-item-info">
+                    <h3 class="masonry-item-title">Foliage Pattern Studies</h3>
+                    <span class="masonry-item-tag">Sketches</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- --- Fullscreen Lightbox Modal --- -->
+    <div class="lightbox-modal" id="lightbox-modal">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <div class="lightbox-content-container">
+            <div class="lightbox-img-wrapper">
+                <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            </div>
+            <div class="lightbox-details">
+                <h3 class="lightbox-title" id="lightbox-title">Artwork Title</h3>
+                <span class="lightbox-category" id="lightbox-category">Illustration</span>
+                <p class="lightbox-desc" id="lightbox-desc">Detailed description of the artwork goes here...</p>
+                <ul class="lightbox-specs" id="lightbox-specs">
+                    <!-- Loaded dynamically -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- Cart Overlay & Drawer (Global) --- -->
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-drawer" id="cart-drawer">
+            <div class="cart-header">
+                <h3>Shopping Cart 購物車</h3>
+                <span class="cart-close-btn" id="cart-close">&times;</span>
+            </div>
+            
+            <div class="cart-items-wrapper" id="cart-items-wrapper">
+                <!-- Loaded Dynamically -->
+            </div>
+            
+            <div class="cart-footer-panel">
+                <div class="cart-summary-row">
+                    <span>Subtotal 小計</span>
+                    <span class="cart-summary-price" id="cart-total-price">$0.00 USD</span>
+                </div>
+                
+                <button class="btn btn-primary" id="checkout-btn" style="width: 100%; text-align: center;">Proceed to Checkout 填寫結帳資料</button>
+                
+                <div class="cart-checkout-form" id="checkout-form">
+                    <form id="pay-form">
+                        <div class="contact-form-group">
+                            <label class="contact-form-label" for="checkout-email">Email 收件信箱</label>
+                            <input class="contact-input" type="email" id="checkout-email" required placeholder="your_email@domain.com">
+                        </div>
+                        <div class="contact-form-group">
+                            <label class="contact-form-label" for="checkout-name">Recipient Name 收件人姓名</label>
+                            <input class="contact-input" type="text" id="checkout-name" required placeholder="收件人真實姓名">
+                        </div>
+                        <div class="contact-form-group">
+                            <label class="contact-form-label" for="checkout-address">Shipping Address 運送地址</label>
+                            <input class="contact-input" type="text" id="checkout-address" required placeholder="收件完整地址">
+                        </div>
+                        <div class="contact-form-group">
+                            <label class="contact-form-label" for="checkout-card">Card Number 信用卡卡號</label>
+                            <input class="contact-input" type="text" id="checkout-card" required placeholder="0000 0000 0000 0000">
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div class="contact-form-group">
+                                <label class="contact-form-label" for="checkout-expiry">Expiry 有效期限</label>
+                                <input class="contact-input" type="text" id="checkout-expiry" required placeholder="MM/YY">
+                            </div>
+                            <div class="contact-form-group">
+                                <label class="contact-form-label" for="checkout-cvv">CVV 安全碼</label>
+                                <input class="contact-input" type="text" id="checkout-cvv" required placeholder="123">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="pay-submit-btn" style="width: 100%; text-align: center; margin-top: 15px; background-color: var(--accent-emerald);">Pay & Confirm 模擬付款</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- Contact Overlay & Drawer (Global) --- -->
+    <div class="contact-overlay" id="contact-overlay">
+        <div class="contact-drawer" id="contact-drawer">
+            <div class="contact-header">
+                <h3>Contact & Newsletter 聯絡與訂閱</h3>
+                <span class="contact-close-btn" id="contact-close">&times;</span>
+            </div>
+            
+            <div class="contact-body">
+                <p class="contact-intro">對於委託合作、展覽邀請或商品購買有任何疑問？請填寫下方表單，我會儘快與您聯繫。</p>
+                
+                <form id="contact-form">
+                    <div class="contact-form-group">
+                        <label class="contact-form-label" for="contact-name">Name 姓名</label>
+                        <input class="contact-input" type="text" id="contact-name" required placeholder="您的姓名">
+                    </div>
+                    <div class="contact-form-group">
+                        <label class="contact-form-label" for="contact-email">Email 信箱</label>
+                        <input class="contact-input" type="email" id="contact-email" required placeholder="your_email@domain.com">
+                    </div>
+                    <div class="contact-form-group">
+                        <label class="contact-form-label" for="contact-subject">Subject 主旨</label>
+                        <input class="contact-input" type="text" id="contact-subject" required placeholder="諮詢主旨">
+                    </div>
+                    <div class="contact-form-group">
+                        <label class="contact-form-label" for="contact-message">Message 訊息內容</label>
+                        <textarea class="contact-input" id="contact-message" required placeholder="請輸入您想說的話..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; text-align: center;">Send Message 傳送訊息</button>
+                </form>
+                
+                <div class="contact-socials">
+                    <span class="contact-form-label">Follow Me 關注社群</span>
+                    <ul class="contact-social-links">
+                        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                        <li><a href="https://x.com" target="_blank">Twitter / X</a></li>
+                        <li><a href="https://plurk.com" target="_blank">Plurk</a></li>
+                        <li><a href="mailto:lun.sheepman@gmail.com">Email 信箱</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- Footer --- -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h4>LUN / 羊人</h4>
+                <p>Taiwanese Artist & Illustrator. Exploring mythology, fantasy landscapes, and surreal characters through digital and traditional print media.</p>
+            </div>
+            <div class="footer-links">
+                <h5>Navigation 導覽</h5>
+                <ul>
+                    <li><a href="index.html">Home 首頁</a></li>
+                    <li><a href="portfolio.html">Portfolio 作品集</a></li>
+                    <li><a href="shop.html">Shop 商店</a></li>
+                    <li><a href="about.html">About 關於我</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5>Social Media 關注社群</h5>
+                <ul>
+                    <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://x.com" target="_blank">Twitter / X</a></li>
+                    <li><a href="https://plurk.com" target="_blank">Plurk</a></li>
+                    <li><a href="mailto:lun.sheepman@gmail.com">Inquiries 信箱</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>&copy; 2026 Lun (羊人). All Rights Reserved. All Artworks &copy; the Artist.</span>
+            <span>Made with passion in Taipei, Taiwan.</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

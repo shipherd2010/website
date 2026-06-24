@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop — Lun (羊人) | 商店</title>
+    <meta name="description" content="購買插畫家 Lun (羊人) 的限量周邊與藝術版畫。包含限量絲網印刷海報（Silk Screen）、高品質藝術微噴（Giclee）以及防水貼紙。全台及海外配送。">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- --- Header --- -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo-wrapper">
+                <span class="logo-brand">LUN 羊人</span>
+                <span class="logo-location">Taichung, Taiwan</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home 首頁</a></li>
+                    <li><a href="portfolio.html">Portfolio 作品集</a></li>
+                    <li><a href="shop.html" class="active">Shop 商店</a></li>
+                    <li><a href="about.html">About 關於我</a></li>
+                    <li><a href="#" id="contact-trigger">Contact 聯絡</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-right">
+                <div class="social-icons-nav">
+                    <a href="https://instagram.com" target="_blank">ig</a>
+                    <a href="https://x.com" target="_blank">x</a>
+                    <a href="https://plurk.com" target="_blank">plurk</a>
+                </div>
+                <div class="cart-icon-btn" id="cart-toggle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <span>Cart</span>
+                    <span class="cart-count" id="cart-count">0</span>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- --- Shop Section --- -->
+    <section class="container section-padding" style="margin-top: 80px;">
+        <div class="section-header">
+            <h2>Shop <em>藝術商店</em></h2>
+            <p>收藏原創限量版畫、印刷海報及獨家貼紙周邊。</p>
+        </div>
+        
+        <!-- Category 1: Silk Screen -->
+        <div class="shop-category-section">
+            <div class="section-header">
+                <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 20px; border-left: 3px solid var(--accent-gold); padding-left: 15px;">Silk Screen <em>絲網印刷海報</em></h3>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Frankenstein -->
+                <div class="product-card" data-id="silkscreen-1" data-price="200.00" data-image="assets/artwork_silkscreen1.png">
+                    <div class="product-img-wrapper">
+                        <img src="assets/artwork_silkscreen1.png" alt="Frankenstein AP">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Scylla 海妖塞任</h3>
+                        <p class="product-meta">
+                            7 Color Hand-printed Silkscreen Poster.<br>
+                            Size: 24" x 36". Printed on heavy black card stock.<br>
+                            <strong>Limited Edition of 30.</strong> Signed & numbered.
+                        </p>
+                        <div class="product-price-row">
+                            <span class="product-price">$100.00 USD</span>
+                            <button class="btn-buy">Buy 買</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JAWS (Sold Out Example) -->
+                <div class="product-card" data-id="silkscreen-2" data-price="300.00" data-image="assets/11.png">
+                    <div class="product-img-wrapper" style="opacity: 0.6;">
+                        <img src="assets/16.png" alt="JAWS AP">
+                        <span class="product-badge" style="border-color: #888; color: #888;">Sold Out</span>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title" style="color: var(--text-secondary);">What's yours story?</h3>
+                        <p class="product-meta" style="color: var(--text-muted);">
+                            9 Color Silkscreen Poster.<br>
+                            Size: 24" x 36". Variant edition on metallic foil.<br>
+                            <strong>Edition of 15.</strong>
+                        </p>
+                        <div class="product-price-row">
+                            <span class="product-price" style="color: var(--text-muted);">$200.00 USD</span>
+                            <span class="out-of-print">Out of Print 已售罄</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category 2: Giclee -->
+        <div class="shop-category-section">
+            <div class="section-header">
+                <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 20px; border-left: 3px solid var(--accent-gold); padding-left: 15px;">Giclee <em>藝術微噴</em></h3>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Essences -->
+                <div class="product-card" data-id="giclee-1" data-price="24.99" data-image="assets/artwork_giclee1.png">
+                    <div class="product-img-wrapper">
+                        <img src="assets/artwork_giclee1.png" alt="Essences Insensees">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Raven and Cat 黑貓烏鴉</h3>
+                        <p class="product-meta">
+                            Museum-quality Giclee print on Epson Archival Matte Paper.<br>
+                            Size: 8.5" x 11". Acid-free. Signed by the artist.<br>
+                            Open edition print.
+                        </p>
+                        <div class="product-price-row">
+                            <span class="product-price">$24.99 USD</span>
+                            <button class="btn-buy">Buy 買</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuir d'Ange -->
+                <div class="product-card" data-id="giclee-2" data-price="24.99" data-image="assets/12.png">
+                    <div class="product-img-wrapper">
+                        <img src="assets/12.png" alt="Cuir d'Ange">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Hello friend! 軒與鬥魚</h3>
+                        <p class="product-meta">
+                            Giclee art print. Highly saturated pigment inks.<br>
+                            Size: 8.5" x 11". Rich matte texture.<br>
+                            Open edition print.
+                        </p>
+                        <div class="product-price-row">
+                            <span class="product-price">$24.99 USD</span>
+                            <button class="btn-buy">Buy 買</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category 3: Stickers -->
+        <div class="shop-category-section">
+            <div class="section-header">
+                <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 20px; border-left: 3px solid var(--accent-gold); padding-left: 15px;">Stickers <em>防水貼紙</em></h3>
+            </div>
+            
+            <div class="product-grid">
+                <!-- SOUR -->
+                <div class="product-card" data-id="sticker-1" data-price="5.99" data-image="assets/artwork_sticker1.png">
+                    <div class="product-img-wrapper">
+                        <img src="assets/artwork_sticker1.png" alt="SOUR Sticker">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Alkemio 蛙與煉金術</h3>
+                        <p class="product-meta">
+                            3" Die-Cut Vinyl Sticker.<br>
+                            Weatherproof & UV-protected glossy coating.<br>
+                            Perfect decoration for laptops, flasks, and luggage.
+                        </p>
+                        <div class="product-price-row">
+                            <span class="product-price">$5.99 USD</span>
+                            <button class="btn-buy">Buy 買</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SPICY -->
+                <div class="product-card" data-id="sticker-2" data-price="5.99" data-image="assets/20.jpg">
+                    <div class="product-img-wrapper">
+                        <img src="assets/20.jpg" alt="SPICY Sticker">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">二創小說"SHEEN"聯名貼紙</h3>
+                        <p class="product-meta">
+                            3" Die-Cut Vinyl Sticker.<br>
+                            Spicy red character series. Weatherproof & durable.<br>
+                            Collect all taste series!
+                        </p>
+                        <div class="product-price-row">
+                            <span class="product-price">$5.99 USD</span>
+                            <button class="btn-buy">Buy 買</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Cart Overlay & Drawer (Global) --- -->
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-drawer" id="cart-drawer">
+            <div class="cart-header">
+                <h3>Shopping Cart 購物車</h3>
+                <span class="cart-close-btn" id="cart-close">&times;</span>
+            </div>
+            
+            <div class="cart-items-wrapper" id="cart-items-wrapper">
+                <!-- Loaded Dynamically -->
+            </div>
+            
+            <div class="cart-footer-panel">
+                <div class="cart-summary-row">
+                    <span>Subtotal 小計</span>
+                    <span class="cart-summary-price" id="cart-total-price">$0.00 USD</span>
+                </div>
+                
+                <button class="btn btn-primary" id="checkout-btn" style="width: 100%; text-align: center;">Proceed to Checkout 填寫結帳資料</button>
+                
+                <div class="cart-checkout-form" id="checkout-form">
+                    <form id="pay-form">
+                        <div class="contact-form-group">
+                            <label class="contact-form-label" for="checkout-email">Email 收件信箱</label>
+                            <input class="contact-input" type="email" id="checkout-email" required placeholder="your_email@domain.com">
+                        </div>
+                        <div class="contact-form-group">
+                            <label class="contact-form-label" for="checkout-name">Recipient Name 收件人姓名</label>
+                            <input class="contact-input" type="text" id="checkout-name" required placeholder="收件人真實姓名">
+                        </div>
+                        <div class="contact-form-group">
+                            <label class="contact-form-label" for="checkout-address">Shipping Address 運送地址</label>
+                            <input class="contact-input" type="text" id="checkout-address" required placeholder="收件完整地址">
+                        </div>
+                        <div class="contact-form-group">
+                            <label class="contact-form-label" for="checkout-card">Card Number 信用卡卡號</label>
+                            <input class="contact-input" type="text" id="checkout-card" required placeholder="0000 0000 0000 0000">
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div class="contact-form-group">
+                                <label class="contact-form-label" for="checkout-expiry">Expiry 有效期限</label>
+                                <input class="contact-input" type="text" id="checkout-expiry" required placeholder="MM/YY">
+                            </div>
+                            <div class="contact-form-group">
+                                <label class="contact-form-label" for="checkout-cvv">CVV 安全碼</label>
+                                <input class="contact-input" type="text" id="checkout-cvv" required placeholder="123">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="pay-submit-btn" style="width: 100%; text-align: center; margin-top: 15px; background-color: var(--accent-emerald);">Pay & Confirm 模擬付款</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- Contact Overlay & Drawer (Global) --- -->
+    <div class="contact-overlay" id="contact-overlay">
+        <div class="contact-drawer" id="contact-drawer">
+            <div class="contact-header">
+                <h3>Contact & Newsletter 聯絡與訂閱</h3>
+                <span class="contact-close-btn" id="contact-close">&times;</span>
+            </div>
+            
+            <div class="contact-body">
+                <p class="contact-intro">對於委託合作、展覽邀請或商品購買有任何疑問？請填寫下方表單，我會儘快與您聯繫。</p>
+                
+                <form id="contact-form">
+                    <div class="contact-form-group">
+                        <label class="contact-form-label" for="contact-name">Name 姓名</label>
+                        <input class="contact-input" type="text" id="contact-name" required placeholder="您的姓名">
+                    </div>
+                    <div class="contact-form-group">
+                        <label class="contact-form-label" for="contact-email">Email 信箱</label>
+                        <input class="contact-input" type="email" id="contact-email" required placeholder="your_email@domain.com">
+                    </div>
+                    <div class="contact-form-group">
+                        <label class="contact-form-label" for="contact-subject">Subject 主旨</label>
+                        <input class="contact-input" type="text" id="contact-subject" required placeholder="諮詢主旨">
+                    </div>
+                    <div class="contact-form-group">
+                        <label class="contact-form-label" for="contact-message">Message 訊息內容</label>
+                        <textarea class="contact-input" id="contact-message" required placeholder="請輸入您想說的話..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; text-align: center;">Send Message 傳送訊息</button>
+                </form>
+                
+                <div class="contact-socials">
+                    <span class="contact-form-label">Follow Me 關注社群</span>
+                    <ul class="contact-social-links">
+                        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                        <li><a href="https://x.com" target="_blank">Twitter / X</a></li>
+                        <li><a href="https://plurk.com" target="_blank">Plurk</a></li>
+                        <li><a href="mailto:lun.sheepman@gmail.com">Email 信箱</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- Footer --- -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h4>LUN / 羊人</h4>
+                <p>Taiwanese Artist & Illustrator. Exploring mythology, fantasy landscapes, and surreal characters through digital and traditional print media.</p>
+            </div>
+            <div class="footer-links">
+                <h5>Navigation 導覽</h5>
+                <ul>
+                    <li><a href="index.html">Home 首頁</a></li>
+                    <li><a href="portfolio.html">Portfolio 作品集</a></li>
+                    <li><a href="shop.html">Shop 商店</a></li>
+                    <li><a href="about.html">About 關於我</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5>Social Media 關注社群</h5>
+                <ul>
+                    <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://x.com" target="_blank">Twitter / X</a></li>
+                    <li><a href="https://plurk.com" target="_blank">Plurk</a></li>
+                    <li><a href="mailto:lun.sheepman@gmail.com">Inquiries 信箱</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>&copy; 2026 Lun (羊人). All Rights Reserved. All Artworks &copy; the Artist.</span>
+            <span>Made with passion in Taipei, Taiwan.</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
